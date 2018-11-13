@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Black+And+White+Picture|Noto+Sans|Press+Start+2P');
+
+.App {
+	min-width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 900;
+}
+
+
+.results-container {
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-items: center;
+	height: 200px;
+	width: 350px;
+}
+
+
+.results-container > div{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	
+}
+
+
+.results-container > button {
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	align-self: center;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.308);
+	cursor: pointer;
+}
+
+.right-side, 
+.left-side {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+}
+
+.whats-called-container {
+	margin: 20px 0;
+}
+
+.calling,
+.called {
+	font-size: 30px;
+	width: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 900;
+}
+
+
+.calling {
+	
+	color: rgb(47, 102, 255);
+}
+
+.called {
+	
+	color: grey;
+}
+
+
+.async-demo {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+}
+
+.results-container > div:first-child {
+	font-weight: 900;
+	font-size: 40px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.calling-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.zoom {
+	transition: 4s;
+	transform: scale(1.7);
+}
+
+.noZoom {
+	transition: .4s;
+}
