@@ -10,7 +10,7 @@
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 24px;
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: 900;
 }
@@ -22,7 +22,6 @@ h1 {
 	justify-content:space-around;
 	align-items: center;
 	height: 200px;
-	width: 350px;
 }
 
 
@@ -37,10 +36,26 @@ h1 {
 .results-container > button {
 	width: 150px;
 	height: 40px;
-	font-size: 20px;
+	font-size: 16px;
 	align-self: center;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.308);
 	cursor: pointer;
+}
+
+.results-container span {
+	color: red;
+}
+
+.results-container {
+	order: 1;
+}
+
+.left-side {
+	order: 2;
+}
+
+.right-side {
+	order: 3;
 }
 
 .right-side, 
@@ -50,7 +65,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	font-family: "Courier New", Courier, monospace;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .whats-called-container {
@@ -59,7 +74,7 @@ h1 {
 
 .calling,
 .called {
-	font-size: 30px;
+	font-size: 24px;
 	width: 240px;
 	display: flex;
 	justify-content: center;
@@ -85,13 +100,13 @@ h1 {
 	height: 100%;
 	display: flex;
 	justify-content: space-around;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 }
 
 .results-container > div:first-child {
 	font-weight: 900;
-	font-size: 40px;
+	font-size: 18px;
 	font-family: 'Noto Sans', sans-serif;
 }
 
@@ -104,7 +119,6 @@ h1 {
 
 .zoom {
 	transition: 4s;
-	transform: scale(1.7);
 }
 
 .noZoom {

@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import AsyncDemo from "./Component/AsyncDemo";
-import StarWars from "./Component/StarWars";
+import StarWars from "./Component/StarWarsAsyncDemo";
 import "./App.css";
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<AsyncDemo />
-				{/* <StarWars /> */}
+				{/* <AsyncDemo /> */}
+				<StarWars />
 			</div>
 		);
 	}
